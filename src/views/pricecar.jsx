@@ -22,6 +22,7 @@ var price = parseInt(data.get('baseprice'));
       case 3:
         price=price+price*(10/100);break;        
    }
+     #this line just need a for loop
      switch(1400-data.get("productionyear")){
        case 0:break;
        case 1:       
