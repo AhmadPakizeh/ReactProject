@@ -17,7 +17,7 @@ export default function Currensy(){
         if (!(isNaN(event.target.value))){ 
         setIr(event.target.value);setUsd(event.target.value/26000);
         setEur(event.target.value/1.094/26000);setCnh(event.target.value/26000*6.39);
-        setJpy(event.target.value*118/26000);setAed(event.target.value/26000*3.67);
+        setJpy(event.target.value*118/26000);setAed(event.target.value/105900*3.67);
         setIqd(event.target.value/26000*1460);}
     }    
     const handleChangeusd = (event) => {
